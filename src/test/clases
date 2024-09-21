@@ -1,0 +1,21 @@
+//crear perfiles.
+//configuracion
+
+//Estructura del proyecto
+
+patrones de diseño:
+    -mvc
+    -Estructura de proyecto orientado al dominio- el proyecto estara dividido en tres capaz. pero cada una tendra subcapaz.
+    dominio:
+    -DTO(data transfer object)  repositorios(es equivalente al DAO) service(son interface que permiten conectarme )
+
+    capa 1:
+    persistencia:
+       entity
+       jpa java persistance api (CRUD).
+
+    capa 2:
+    controller:
+
+
+    //tarea crear un usuario para pruebas sin ddl solo dml. el def si puede tener todos lo permisos pero no el test.
